@@ -1,6 +1,8 @@
 {
   "scripts": {
     "start": "node index.js",
+    "en": "LOCALE=eng yarn start",
+    "es": "LOCALE=spa yarn start",
     "test": "jest"
   },
   "name": "la-villa-bot",
@@ -13,7 +15,9 @@
   "private": true,
   "dependencies": {
     "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "effector": "^21.0.3",
+    "lodash.omit": "^4.5.0"
   },
   "devDependencies": {
     "eslint": "^7.5.0",
