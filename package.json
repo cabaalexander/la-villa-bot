@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "name": "la-villa-bot",
+  "version": "0.0.0",
+  "description": "Bot to play 'The Werewolves' on Discord",
+  "main": "index.js",
+  "repository": "git@github.com:cabaalexander/la-villa-bot.git",
+  "author": "cabaalexander <cabaalexander321@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-node": "^4.1.0",
+    "jest": "^26.1.0"
+  }
+}
