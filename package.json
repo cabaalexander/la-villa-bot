@@ -17,7 +17,10 @@
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "effector": "^21.0.3",
-    "lodash.omit": "^4.5.0"
+    "lodash.chunk": "^4.2.0",
+    "lodash.merge": "^4.6.2",
+    "lodash.omit": "^4.5.0",
+    "lodash.shuffle": "^4.2.0"
   },
   "devDependencies": {
     "eslint": "^7.5.0",

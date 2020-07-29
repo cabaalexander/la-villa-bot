@@ -9,8 +9,11 @@ module.exports = function Bot(botApiKey) {
   })
 
   bot.on('message', msg => {
-    // dynamically run all commands
-    Object.values(commands).forEach((func) => {func(msg)})
+    const userMessage = msg.content
+
+    if (userMessage in commands) {
+      commands[userMessage](msg)
+    }
   });
 
   bot.login(botApiKey)
